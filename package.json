@@ -1,0 +1,22 @@
+{
+  "name": "baidu-aip-sdk",
+  "version": "2.3.10",
+  "description": "专题制作工具，根据专题图片自动生成文字专题",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "author": "xpsilvester",
+  "dependencies": {
+    "debug": "^2.6.0",
+    "iconv-lite": "^0.4.15",
+    "request": "^2.79.0",
+    "underscore": "^1.8.3",
+    "imageinfo": "1.0.4"
+  },
+  "optionalDependencies": {
+    "should": "^13.2.0",
+    "mocha": "^4.0.1"
+  }
+}
